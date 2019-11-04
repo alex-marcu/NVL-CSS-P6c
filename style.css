@@ -1,0 +1,68 @@
+h1{
+	text-align: center;
+}
+
+.parrafo {
+	font-size: 18px;
+}
+#main {
+	position: absolute;
+}
+
+#main > div {
+	float: left;
+	margin: 10px;
+}
+
+#izqdiv {
+	width: 500px;
+}
+
+#drchdiv {
+	width: 500px;
+	float: right;
+}
+
+ul {
+	list-style: none;
+	padding: 30px;
+	border: 10px solid coral;
+	font-size: 18px;
+}
+
+#ingredientes {
+	font-family: 'century gothic';
+	text-align: center;
+	color: red;
+	font-size: 24px;
+
+}
+
+#preparacion {
+	font-family: 'century gothic';
+	text-align: center;
+	color: red;
+	font-size: 24px;
+}
+
+#preparacion + p {
+	padding: 86px 20px;
+	border: 10px solid antiquewhite;
+	font-size: 18px;
+}
+
+li {
+	border-bottom: 1px solid black;
+}
+
+li:before {
+	content: ">";
+	color: red;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+form {
+	position: fixed;
+	bottom: 0;
+}
